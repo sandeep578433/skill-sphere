@@ -1,0 +1,135 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #4b5a9b;
+  color: rgb(245, 245, 245);
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #ffffff;
+  color: black;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+
+.hero img {
+  width: 70%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* COURSE GRID */
+.courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: contain; 
+  border-radius: 10px;
+  background: #0f172a;
+  padding: 5px;
+}
+
+/* TEXT */
+.card h3 {
+  margin-top: 15px;
+}
+
+.card p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+/* FORMS */
+.form-box {
+  width: 320px;
+  margin: 60px auto;
+  text-align: center;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* CONTACT */
+.contact {
+  padding: 30px;
+  text-align: center;
+}
